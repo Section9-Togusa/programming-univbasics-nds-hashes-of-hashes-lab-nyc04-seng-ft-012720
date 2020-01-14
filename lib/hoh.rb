@@ -13,18 +13,18 @@
 #     }
 #   }
 # }
-# 
+#
 # PORTION_2 = {
 #   label: "Order"
 # }
-# 
+#
 # PORTION_3 = {
 #   label: "Family",
 #   sub_category: {
 #     label: "Genus",
 #   }
 # }
-# 
+#
 # PORTION_4 = {
 #   label: "Species",
 #   sub_category: nil
@@ -65,7 +65,7 @@ def naming_system
   }
 
    order = {
-   :label => "Order", 
+   :label => "Order",
    :sub_category => family
  }
     domain = {
@@ -74,7 +74,7 @@ def naming_system
      :label => "Phylum",
      :sub_category => {
        :label => "Class",
-        :sub_category => order 
+        :sub_category => order
     }
   }
 }
