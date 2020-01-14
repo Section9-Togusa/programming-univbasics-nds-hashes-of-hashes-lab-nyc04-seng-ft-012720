@@ -74,7 +74,7 @@ def naming_system
   domain = {
     label: "kingdom",
     sub_category: {
-      label: "Phylum"
+      label: "Phylum",
       sub_category: {
         label: "Class",
         sub_category: order
